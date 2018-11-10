@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../assets/images/Hiking_Site.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav.navbar {
+    height: 90px;
+    background-color: darkseagreen;
+    opacity: 0.8;  
+}
+
+.navbar-brand {
+    font-size: 70px;
+    color: white;
+    margin: 0 auto;
+    font-family: lobster;
+}
+
+h1 {
+    margin-top: 80px;
+    font-family: mallanna;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: acme;
+    margin-top: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div.card {
+    margin: 0 auto;
+    top: 80px;
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid transparent; */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    padding: 0; 
+}
+
+.searchHeader {
+    color: white;
+    margin-top: 80px;
+    font-family: mallanna;
+    font-size: 70px;
+}
+
+#searchTextField {
+    width: 80%;
+    margin: 20px 0px;
+    text-align: center;  
+    height: 90px;
+    border-radius: 20px 0px 0px 20px ;
+    border: 15px solid rgba(228, 223, 223, 0.5);
+    background-clip: padding-box;    
+}
+
+.searchBtn {
+    cursor: pointer;
+    margin: 20px 0px;
+    height: 90px;
+    border-radius: 20px;
+    width: 110px;
+    padding: 0;
+    border: 15px solid rgba(228, 223, 223, 0.5);
+    background-clip: padding-box;
+}
+
+.name-title {
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    left: 16px;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.411), rgba(75, 70, 70, 0.452));
+    box-shadow:         0px 3px 5px 0px rgba(17, 17, 17, 0.521);
+    font-size: 120%;
+    color: white;
+    transform: rotate(-29deg);
+    padding: 2px;
+    border-radius: 30px;
+}
+
+
+img.card-img-top {
+    margin: 0;
+    padding: 0;
+    height: 200px;   
+    border-radius: 5px;
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.list-group-item {
+    font-family: mclaren;
+}
+
+.col-md-9 {
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+}
+
+img {
+    border-radius: 10px;
+    border: solid 3px lightgray;
+    /* border: 5px solid rgba(228, 223, 223, 0.5); */
+}
+
+#weather {
+    background: white; 
+    border-radius: 15px;
+}
+
+.weatherIcon {
+    width: 50px;
+}
+
+.invisible {
+    display: none;
+}
+
+#quote {
+    font-family: 'Charmonman', cursive;
+}
+
+.container {
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.trailCards {
+    height: 17rem;
+}
